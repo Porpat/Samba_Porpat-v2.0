@@ -76,6 +76,7 @@ sudo testparm
 
 ### 7.1. Felhasználó felvétele
 sudo useradd user2 –c "user2" –g users –m –d /home/user2 –s /bin/bash
+sudo usermod -a -G groupName userName
 
 ### 7.2 Jelszó megadása
 sudo passwd user2 #adjuk meg a jelszót
